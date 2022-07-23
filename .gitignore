@@ -1,0 +1,9 @@
+# Ignore all files woth extension .tfstate
+*.tfstate
+
+# Ignore all files woth extension .tfstate.backup 
+*.tfstate.backup
+
+#Ignore all .terraform files
+.terraform 
+
