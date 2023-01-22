@@ -7,3 +7,6 @@
 #Ignore all .terraform files
 .terraform 
 
+#Ignore all .terraform.lock.hcl files
+.terraform.lock.hcl
+
