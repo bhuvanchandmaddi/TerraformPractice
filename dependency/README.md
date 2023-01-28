@@ -4,7 +4,7 @@ There are 2 types of dependencies.
 1. implicit
 2. explicit
 
-Before understanding differnces between those 2 types, let us understand below 2 terms, which can be seen in terraform documentation of every rsource type.
+Before understanding differnces between those 2 types, let us understand below 2 terms, which can be seen in terraform documentation of every resource type.
 
 Eg: Refer doc of aws_internet_gateway [here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway)
 
@@ -29,10 +29,10 @@ Explicit dependencies, we need to define using *depends_on*
 ## Lab Activityies to test dpendency using depends_on:
 
 ### Activity 1:
-I want to enable flow logs and for a vpc and store them in s3 bucket.So i want to create all 3 resources in blow order
+I want to enable flow logs for a vpc and store them in s3 bucket.So i want to create all 3 resources in below order
 
 1. Vpc
-1. S3 nucket
+1. S3 bucket
 1. Flowlogs
 
 ### Activity 2:
