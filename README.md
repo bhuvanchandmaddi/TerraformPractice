@@ -16,3 +16,5 @@ Eg: we cannot attach 2 internet gateways to a single vpc, If you try to do that 
 **Note**: More info on workspaces can be found in this [blog](https://medium.com/devops-mojo/terraform-workspaces-overview-what-is-terraform-workspace-introduction-getting-started-519848392724)
 * If you store the state file locally then only you can work with the project. If you want to share the project to others like pushing it to the gitlab,github etc.Then you need to separate statefile because if both of you use the same state file at the same time then yiu will run into issues.
 * So you can push the terraform statefile to aws s3 bucket using terraform backend and you can set the lock on that
+
+## Terreform functions
